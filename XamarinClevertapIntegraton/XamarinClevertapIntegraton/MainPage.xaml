@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinClevertapIntegraton.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Karthik's Clevertap Xamarin Integration!" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+        </Frame>
+        <Button Text="Push Event" Margin="10, 0, 10, 0" Clicked="Button_PushEvent_Clicked" />
+        <Button Text="Push Profile" Margin="10, 0, 10, 0" Clicked="Button_PushProfile_Clicked" />
+        <Button Text="Push Notification" Margin="10, 0, 10, 0" Clicked="Button_Notification_Clicked" />
+        <Button Text="In App" Margin="10, 0, 10, 0" Clicked="Button_InApp_Clicked" />
+        <Button Text="App Inbox" Margin="10, 0, 10, 0" Clicked="Button_AppInbox_Clicked" />
+        <Button Text="Native Display" Margin="10, 0, 10, 0" Clicked="Button_NativeDisplay_Clicked" />
+    </StackLayout>
+
+</ContentPage>
