@@ -29,7 +29,7 @@ namespace XamarinClevertapIntegraton
             CleverTapAPI.CreateNotificationChannel(Android.App.Application.Context, "testkk123", "KK Xamarin Notification", "Karthik Xamarin Notification", 5, true);
 
             //onUserLogin
-            //userLoginPushProfile();
+            userLoginPushProfile();
 
             //App Inbox
             cleverTapAPI.InitializeInbox();
